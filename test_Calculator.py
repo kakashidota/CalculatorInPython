@@ -13,5 +13,4 @@ class TestCalc:
 
     def test_mulitply(self):
         assert 100 == Calc.multiply(10, 10)
-        assert 50 == Calc(5, 10)
-
+        assert 50 == Calc.multiply(5, 10)

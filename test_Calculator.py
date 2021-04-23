@@ -1,5 +1,6 @@
 from Calculator import Calc
 
+
 class TestCalc:
     def test_add(self):
         assert 4 == Calc.add(2, 2)
